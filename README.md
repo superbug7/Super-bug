@@ -22,7 +22,7 @@ Alexa integration source code ( alexa-skills-EHR.zip ) is inside docker containe
 II. How to Setup and test
 
 For loading the environment to train the network or do inference, we are providing the docker container with the environment setup. Below are instructions for setting in up:
-a. Pull the docker image from https://hub.docker.com/r/superbug/bug_classifier/
+a. Pull the docker image from https://hub.docker.com/r/superbug/bug_classifier/  ( tag: version 4 )
 b. Install nvidia-docker from https://github.com/NVIDIA/nvidia-docker
 c. Get inside the pulled container using this command:
 i. sudo nvidia-docker run -ti -p 8888:8888 bug_classifier bash
