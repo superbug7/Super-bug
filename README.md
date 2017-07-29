@@ -14,7 +14,7 @@ III. ALEXA INTEGRATION
 I. FILES ATTACHED
 
 superbug-classifier.ipynb ( source code in jupyter notebook format for modularity )
-model.h5/json ( trained model with LSTM : ~75% accuracy for 4 classes)
+model.h5/json ( trained model with LSTM : 75% accuracy for 4 classes)
 Superbug_project.pdf ( Project description, HLD, Software design and sources used for this project)
 Docker image with full environment available here: https://hub.docker.com/r/superbug/bug_classifier/ . Files are located in $~/superbug inside container
 Alexa integration source code ( alexa-skills-EHR.zip ) is inside docker container
