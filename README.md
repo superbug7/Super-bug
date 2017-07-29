@@ -18,6 +18,7 @@ model.h5/json ( trained model with LSTM : 75% accuracy for 4 classes)
 Superbug_project.pdf ( Project description, HLD, Software design and sources used for this project)
 Docker image with full environment available here: https://hub.docker.com/r/superbug/bug_classifier/ . Files are located in $~/superbug inside container
 Alexa integration source code ( alexa-skills-EHR.zip ) is inside docker container
+
 II. How to Setup and test
 
 For loading the environment to train the network or do inference, we are providing the docker container with the environment setup. Below are instructions for setting in up:
